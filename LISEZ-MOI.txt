@@ -1,0 +1,31 @@
+PORTFOLIO PROFESSIONNEL — LOLINCIA JEAN LUC
+
+CONTENU
+- index.html : page du portfolio
+- style.css : design responsive bleu marine, blanc et doré
+- script.js : filtres, recherche et affichage dynamique des documents
+- photo-profil.jpg : emplacement de votre photo professionnelle (à ajouter)
+- documents/ : emplacement des certificats, attestations et diplômes PDF
+
+PERSONNALISATION À FAIRE
+1. Ajoutez votre photo professionnelle dans ce dossier et nommez-la exactement :
+   photo-profil.jpg
+   Vous pouvez utiliser une image JPG ou convertir votre photo en JPG.
+2. Ouvrez script.js avec Visual Studio Code ou un éditeur de texte.
+3. Dans le tableau `documents`, remplacez les trois exemples par vos documents réels.
+4. Pour chaque document, modifiez titre, categorie, organisme, date, description et fichier.
+5. Copiez le PDF correspondant dans le dossier documents. Le chemin dans `fichier`
+   doit correspondre exactement au nom du fichier.
+6. Dans index.html, remplacez contact@example.com par votre adresse e-mail professionnelle.
+7. Ouvrez index.html dans un navigateur pour tester le portfolio.
+
+CATÉGORIES
+Les filtres prévus sont : Certificat, Attestation et Diplôme.
+Pour une catégorie supplémentaire, ajoutez un bouton dans index.html et utilisez
+le même libellé dans le champ categorie du tableau de script.js.
+
+PUBLICATION
+Vous pourrez ensuite publier le dossier sur GitHub Pages, Netlify ou un hébergement web.
+Avant de rendre le site public, vérifiez que les certificats ne contiennent pas
+d'informations personnelles ou confidentielles que vous ne souhaitez pas diffuser.
+Les documents sont des exemples de démonstration : remplacez-les par vos pièces réelles.
