@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio professionnel de Lolincia Jean Luc, économiste, analyste de données et enquêteur.">
+  <meta name="theme-color" content="#14243a">
+  <title> Portfolio professionnel de Lolincia Jean Luc </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="accueil">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#accueil">LJL<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#documents">Certificats & attestations</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero-content container">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFOLIO PROFESSIONNEL</p>
+        <h1>Lolincia <span>Jean Luc</span></h1>
+        <p class="roles">Économiste <i>•</i> Analyste de données <i>•</i> Enquêteur</p>
+        <p class="intro"> Économiste, analyste de données,enquêteur, Chauffeur. Je suis passionné par la recherche des solutions adaptées en se fondant sur les données, les problèmes réels et des cas pratiques. Je suis interessé par la gestion de projets communautaires et par l’emergence de nouvelles stratégies de developpement des collectivités locales rurales en Haiti et au Canada.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#documents"> Consulter mes documents</a>
+          <a class="btn btn-outline" href="#contact"> Me contacter</a>
+        </div>
+      </div>
+      <div class="profile-frame">
+        <img src="Github.png" alt="Photo professionnelle de Lolincia Jean Luc" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="photo-placeholder"><span></div>
+      </div>
+    </section>
+    <div class="hero-bottom container"><span>Rigueur</span><b></b><span>Analyse</span><b></b><span>Engagement</span></div>
+  </header>
+
+  <main>
+    <section class="section container" id="apropos">
+      <div class="section-title">
+        <p class="eyebrow">PROFIL</p>
+        <h2>À propos de moi</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-accent">«</div>
+        <div>
+          <p class="lead">Je suis Lolincia Jean Luc, économiste, analyste de données, enquêteur et Chauffeur.</p>
+          <p class="muted">Mon profil associe l'analyse économique, le traitement et l'interprétation des données ainsi que la collecte d'informations sur le terrain. Je m'intéresse à la production d'informations fiables et utiles pour mieux comprendre les réalités économiques et sociales et éclairer la prise de décision.</p>
+          <p class="muted">Ce portfolio présente les formations suivies, les certifications obtenues et les attestations qui témoignent de mon apprentissage et de mon développement professionnel.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="competences">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">DOMAINES D'INTERVENTION</p>
+          <h2>Mes domaines de compétences</h2>
+          <p class="muted">Les principaux axes de mon profil professionnel.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><div class="skill-icon">◈</div><h3>Économie</h3><p>Analyse des phénomènes économiques, compréhension des indicateurs et appui à la réflexion.</p></article>
+          <article class="skill-card"><span class="skill-number">02</span><div class="skill-icon">▥</div><h3>Analyse de données</h3><p>Organisation, traitement, analyse et interprétation de données pour produire des résultats exploitables.</p></article>
+          <article class="skill-card"><span class="skill-number">03</span><div class="skill-icon">⌕</div><h3>Enquêtes</h3><p>Collecte d'informations, travail de terrain et contribution à la qualité des données recueillies.</p></article>
+          <article class="skill-card"><span class="skill-number">04</span><div class="skill-icon">⌕</div><h3>Chauffeur</h3><p> Respect des codes routiers, travail en fonction de la disponibilité du personnel et respecter la vie privée des personnes</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="documents">
+      <div class="section-title">
+        <p class="eyebrow">JUSTIFICATIFS DE PARCOURS</p>
+        <h2>Certificats & attestations</h2>
+        <p class="muted">Consultez les documents qui présentent mon parcours de formation et mes acquis professionnels.</p>
+      </div>
+      <div class="toolbar">
+        <label class="search-wrap"><span class="sr-only">Rechercher un document</span><input id="searchInput" type="search" placeholder="Rechercher un document..."></label>
+        <div class="filters" id="filters" aria-label="Filtrer les documents">
+          <button class="filter active" data-filter="Tous">Tous</button>
+          <button class="filter" data-filter="Mon CV"> Mon CV</button>
+          <button class="filter" data-filter="Diplômes">Diplômes</button>
+          <button class="filter" data-filter="Attestation">Attestations</button>
+          <button class="filter" data-filter= "Certificats">Certificats</button>
+        </div>
+      </div>
+      <div class="document-grid" id="documentGrid" aria-live="polite"></div>
+      <p class="empty-state" id="emptyState" hidden> </p>
+      <p class="documents-note"> Tous les employeurs canadiens peuvent télécharger mes documents pour faire les suivis nécessaires et peuvent me demander des renseignements supplémentaires.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><p class="eyebrow"> ÉCHANGEONS </p><h2> Me contact </h2><p> Pour les employeurs qui veulent un personnel qualifié, motivé,capable d'assurer ces responsabilités,ils peuvent me contacter via mes coordonnées téléphoniques:+50937809867/+50942016643.</p></div>
+        <a class="btn btn-gold" src="email" href="mailto:jeanluclolincia@gmail.com"> Envoyer un courriel </a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><p>© <span id="year"></span> Lolincia Jean Luc. Tous droits réservés.</p><a href="#accueil">Retour en haut ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
